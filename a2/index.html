@@ -1,0 +1,198 @@
+<!-- API Key for google map: AIzaSyBhntZX8kiero0HeWWOO17RSPpvtbfJSXg -->
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./homepage.css">
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="hero-image">
+
+  <nav class="navbar navbar-expand-sm  navbar-light"">
+    <a class="navbar-brand" href="#">
+    <img src="./images/logo.png" alt="logo" style="width:100px;">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li>
+        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li>
+        <a class="nav-link" href="./post_defect.html">PostDefect <span class="sr-only">(current)</span></a>
+      </li>
+      <li>
+        <a class="nav-link" href="./DefectDetails.html">DefectDetails <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button type="submit">Search</button>
+    </form>
+
+
+  </div>
+  </nav>
+
+
+
+  <div class="introtext" id="smallscreen">
+     <h2 style="font-size:2vw">Need help for fixing the things??</h2>
+       <h2 style="font-size:2vw">RESolve with the help of Technicians </h2>
+
+       <p style="font-size:1vw">Choose the technician of your choice and get the deal done</p>
+
+
+  </div>
+  <div class = "imageslider" id="smallscreen">
+
+
+  <div class="mySlides">
+    <img src="./images/e.jpg">
+
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/f.jpeg">
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/a.jpg">
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/h.jpeg">
+  </div>
+
+
+
+</div>
+
+<div class="displaydots" id="smallscreen">
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+
+
+  <div class="hero-text" >
+    <!-- <h1 style="font-size:50px">I am John Doe</h1>
+    <p>And I'm a Photographer</p> -->
+    <form class="form-inline my-2 my-lg-0">
+    <button class = "first">I'm a customer</button>
+    <button class = "second">I'm a technician</button>
+    </form>
+
+  </div>
+</div>
+<hr>
+<div class="row">
+ <div class="column">
+    <h2>Available Categories</h2>
+    <ul>
+  <li class="category"><a href="#">Electronics</a></li>
+  <li class="category"><a href="#">Furniture</a></li>
+  <li class="category"><a href="#">Automobiles</a></li>
+  <li class="category"><a href="#">Home Appliances</a></li>
+</ul>
+<div id="forsmall">
+<ul class="navbar-nav mr-auto">
+  <li>
+    <form class="form-inline my-2 my-lg-0">
+    <a class="nav-link" href="./index.html">Home... <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="./post_defect.html">PostDefect... <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./DefectDetails.html">DefectDetails <span class="sr-only">(current)</span></a>
+      </form>
+  </li>
+
+
+</ul>
+</div>
+<form class="form-inline my-2 my-lg-0">
+
+  </div>
+  <!-- <div class="vl"></div> -->
+  <div class="column">
+    <h2>See our top rated technicians</h2>
+    <div class="container">
+  <div class="card" style="width:50rvm">
+
+    <form class="form-inline my-2 my-lg-0">
+        <img  src="./images/im.png" alt="Card image" style="width:10%">
+        <h6 >John Doe: Solved 5 service requests <br> Category: Electronics
+          <br>
+        <button type="submit">View Profile</button>
+
+        </h6>
+
+    </form>
+</div>
+  </div>
+
+  <div class="container">
+<div class="card" style="width:50rvm">
+
+  <form class="form-inline my-2 my-lg-0">
+      <img src="./images/if.png" alt="Card image" style="width:10%">
+      <h6 >Nitya: Solved 8 service requests <br> Category: Electronics
+        <br>
+      <button type="submit">View Profile</button>
+   </h6>
+
+  </form>
+</div>
+</div>
+
+<div class="container">
+<div class="card" style="width:50rvm">
+
+<form class="form-inline my-2 my-lg-0">
+    <img  src="./images/if.png" alt="Card image" style="width:10%">
+    <h6 >Samantha: Solved 5 service requests <br> Category: Electronics
+      <br>
+    <button type="submit">View Profile</button>
+    </h6>
+</form>
+</div>
+</div>
+  </div>
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+</body>
+</html>
