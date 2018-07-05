@@ -7,6 +7,12 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+    function validate(){
+        alert("Request Sent to Customer");
+        window.location.replace("technician_home.html");
+    }
+    </script>
 </head>
 <body>
 
@@ -104,7 +110,7 @@
                                 <h3>The Desktop has a graphic drive problem. Monitor goes to sleep due to overheat of graphics card while using some higher configuration applications.</h3>
                             </div>
                             <div class="grid buttons">
-                                <button type="button" class="btn btn-md btn-success buttons" data-toggle="modal" data-target="#myModal">
+                                <button type="button" onclick="validate()" class="btn btn-md btn-success buttons" data-toggle="modal" data-target="#myModal">
                                     Commit
                                 </button><!--
                     --><button type="button" class="btn btn-md btn-success buttons" data-toggle="modal" data-target="#myModal">

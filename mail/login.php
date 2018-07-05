@@ -8,7 +8,7 @@ if(empty($_POST['name'])      ||
    {
    echo "No arguments Provided!";
 	return false;
-   }else{
+   })else{
 
 return true;
    }         
