@@ -163,6 +163,10 @@ p{
     padding-bottom: 60px;
 }
 
+.single{
+    margin-bottom: 20px;
+}
+
 /*_______________________________Bootstrap.css overwriting___________________________________*/
 .img-fluid{
     height:50%;
